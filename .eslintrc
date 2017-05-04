@@ -1,0 +1,37 @@
+{
+  "globals": {
+    "document": true,
+    "window": true
+  },
+  "env": {
+    "node": true,
+    "mocha": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "rules": {
+    "import/prefer-default-export": 0,
+    "react/jsx-filename-extension": 0,
+    "no-plusplus": 0,
+    "no-restricted-syntax": 0,
+    "react/forbid-prop-types": 0,
+    "no-console": 1,
+    "max-len": [
+      2,
+      150
+    ],
+    "jsx-a11y/no-static-element-interactions": 0,
+    "linebreak-style": [
+      2,
+      "windows"
+    ],
+    "prettier/prettier": 2
+  },
+  "plugins": [
+    "prettier"
+  ]
+}
